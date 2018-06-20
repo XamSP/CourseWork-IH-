@@ -1,0 +1,16 @@
+    <div class="title"><img src="{{this.image}}">
+    <p><b>{{this.title}}</b></></div>
+    <p>{{this.director}}</p>
+    <ul>
+        {{#each stars}}
+          <li>{{this}}</li>
+        {{/each}}
+    </ul>
+    <p>{{this.description}}</p>
+    <ul>
+      {{#each showtimes}}
+      <li>{{this}}</li>
+      {{/each}}
+    </ul>
+
+    <a role="button" href="/movies" class="a1 btn btn-primary btn-lg">Go Bac</a>

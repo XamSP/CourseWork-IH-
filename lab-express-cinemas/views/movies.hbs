@@ -1,0 +1,9 @@
+
+<h1>Ironhack Cinema</h1>
+<p>Click on the movie to check the showtimes!</p>
+
+<div class="cards-container d-flex align-content-start flex-wrap">
+  {{#each movies}}
+      {{> movieCard this}}
+  {{/each}}
+</div>
